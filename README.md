@@ -9,6 +9,8 @@ By using this app you will enter UAC credentials _once_ and all processes starte
 3. Right click on the shortcut -> Properties -> Advanced -> Check the Run as administrator box. OK all the way out.
 4. Launch the shortcut, enter credentials, and all processes you listed should start.
 
+(Add the `-noexit` switch when starting BootAsAdmin.exe to prevent the shell from closing)
+
 ### Using without building
 
 - Use the "Download as ZIP" button on GitHub, then copy the contents of the `Dist` folder and run the .exe
