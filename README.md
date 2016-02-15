@@ -16,7 +16,7 @@ By using this app you will enter UAC credentials _once_ and all processes starte
 - Use the "Download as ZIP" button on GitHub, then copy the contents of the `Dist` folder and run the .exe
 - Or: browse into the `Dist` folder and download each file to your computer. Run the exe as is. 
 
-Bootlist.txt example:
+### Bootlist.txt example:
 
 - Use \# to ignore/comment lines
 - Any commandline arguments you normally use or can use when starting a new process will be passed along.
