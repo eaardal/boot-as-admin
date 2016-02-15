@@ -80,7 +80,7 @@ namespace BootAsAdmin
                 {
                     return
                         File.ReadAllLines(bootlistFilePath)
-                            .Where(line => !line.StartsWith("#"))
+                            .Where(line => !line.StartsWith("#") && !string.IsNullOrEmpty(line) && !string.IsNullOrWhiteSpace(line))
                             .Select(line => line.Split(';'))
                             .Select(ParseLine);
                 }
