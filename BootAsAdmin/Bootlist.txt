@@ -1,0 +1,6 @@
+﻿# Format: exe path ; arguments ; working dir
+
+C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe;-NoExit "git status";c:\git\myproject
+C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe;-NoExit "gulp build";c:\git\myproject
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\devenv.exe;c:\git\myproject\MyProject.sln
+C:\Program Files (x86)\Google\Chrome\Application\chrome.exe;http://localhost:8080
